@@ -20,6 +20,7 @@ const LandingPage = () => {
               Medical Coder
             </span>
           </div>
+          <div className="bg-red-600">Heading</div>
         </div>
       </div>
     </>
