@@ -17,7 +17,7 @@ const Header = () => {
             <ul className="flex space-x-12">
               <li>
                 <a
-                  href="/"
+                  href="/home"
                   className="py-1 text-md font-medium text-sky-600 transition-colors duration-200"
                 >
                   Home
@@ -33,7 +33,7 @@ const Header = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/skills"
                   className="py-1 text-md font-medium hover:text-sky-600 transition-colors duration-200"
                 >
                   Skills
@@ -41,7 +41,7 @@ const Header = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/contact"
                   className="py-1 text-md font-medium hover:text-sky-600 transition-colors duration-200"
                 >
                   Contact
