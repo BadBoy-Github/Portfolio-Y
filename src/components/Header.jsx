@@ -4,29 +4,29 @@ const Header = () => {
   return (
     <>
       <div className=" text-white p-6 container mx-auto">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between mt-2">
           <div className="font-extrabold text-3xl">
             <a
               href="/"
-              className="text-violet-600 py-1 transition-colors duration-200"
+              className="text-sky-600 py-1 transition-colors duration-200"
             >
               Yakshana T.
             </a>
           </div>
-          <div className="" id="navbar">
-            <ul className="flex space-x-6">
+          <div className="text-xl" id="navbar">
+            <ul className="flex space-x-12">
               <li>
                 <a
                   href="/"
-                  className="py-1 text-md font-semibold text-violet-600 transition-colors duration-200"
+                  className="py-1 text-md font-semibold text-sky-600 transition-colors duration-200"
                 >
                   Home
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
-                  className="py-1 text-md font-semibold hover:text-violet-600 transition-colors duration-200"
+                  href="/about"
+                  className="py-1 text-md font-semibold hover:text-sky-600 transition-colors duration-200"
                 >
                   About
                 </a>
@@ -34,7 +34,7 @@ const Header = () => {
               <li>
                 <a
                   href="#"
-                  className="py-1 text-md font-semibold hover:text-violet-600 transition-colors duration-200"
+                  className="py-1 text-md font-semibold hover:text-sky-600 transition-colors duration-200"
                 >
                   Skills
                 </a>
@@ -42,7 +42,7 @@ const Header = () => {
               <li>
                 <a
                   href="#"
-                  className="py-1 text-md font-semibold hover:text-violet-600 transition-colors duration-200"
+                  className="py-1 text-md font-semibold hover:text-sky-600 transition-colors duration-200"
                 >
                   Contact
                 </a>
