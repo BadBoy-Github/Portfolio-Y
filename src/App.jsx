@@ -1,16 +1,16 @@
+
+
 import Header from "./components/Header";
 import LandingPage from "./components/LandingPage";
-
+import AnimatedBackground from "./components/AnimatedBackground"; 
 
 const App = () => {
   return (
-    <>
-      <div className="bg-[#1d1d1d] text-white min-h-screen ">
-        <Header />
-        <LandingPage />
-      </div>
-    </>
+    <AnimatedBackground>
+      <Header />
+      <LandingPage />
+    </AnimatedBackground>
   );
-}
+};
 
-export default App
+export default App;
