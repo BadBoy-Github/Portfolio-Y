@@ -38,11 +38,11 @@ const Footer: React.FC = () => {
             <div className="flex items-center space-x-2">
               <FileText className="h-8 w-8 text-blue-400" />
               <span className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                MedCoder Pro
+                Yakshana T
               </span>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed">
-              Professional medical coding services with 8+ years of experience in ICD-10, CPT, and HCPCS coding. 
+              Professional medical coding services with 1+ years of experience in ICD-10, CPT, and HCPCS coding. 
               Specializing in accuracy, compliance, and revenue optimization.
             </p>
             <div className="flex space-x-4">
