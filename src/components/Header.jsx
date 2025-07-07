@@ -8,7 +8,7 @@ const Header = () => {
           <div className="font-medium text-3xl">
             <a
               href="/"
-              className="text-sky-600 py-1 transition-colors duration-200"
+              className="text-sky-600 py-1 hover:text-sky-500 transition-colors duration-200 font-bold"
             >
               Yakshana T.
             </a>
@@ -17,8 +17,8 @@ const Header = () => {
             <ul className="flex space-x-12">
               <li>
                 <a
-                  href="/home"
-                  className="py-1 text-md font-medium text-sky-600 transition-colors duration-200"
+                  href="/"
+                  className="py-1 font-medium text-sky-600 hover:text-sky-500 transition-colors duration-200"
                 >
                   Home
                 </a>
@@ -26,7 +26,7 @@ const Header = () => {
               <li>
                 <a
                   href="/about"
-                  className="py-1 text-md font-medium hover:text-sky-600 transition-colors duration-200"
+                  className="py-1 font-medium hover:text-sky-500 transition-colors duration-200"
                 >
                   About
                 </a>
@@ -34,20 +34,25 @@ const Header = () => {
               <li>
                 <a
                   href="/skills"
-                  className="py-1 text-md font-medium hover:text-sky-600 transition-colors duration-200"
+                  className="py-1 font-medium hover:text-sky-500 transition-colors duration-200"
                 >
                   Skills
                 </a>
               </li>
               <li>
                 <a
-                  href="/contact"
-                  className="py-1 text-md font-medium hover:text-sky-600 transition-colors duration-200"
+                  href="/review"
+                  className="py-1 font-medium hover:text-sky-500 transition-colors duration-200"
                 >
-                  Contact
+                  Review
                 </a>
               </li>
             </ul>
+          </div>
+          <div className="text-xl font-medium bg-sky-600 px-4 py-1 rounded-xl hover:bg-sky-800 transition-colors duration-200 cursor-pointer">
+            <a href="/contact" className="">
+              Contact me
+            </a>
           </div>
         </div>
       </div>
