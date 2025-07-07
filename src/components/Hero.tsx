@@ -16,14 +16,15 @@ const Hero: React.FC = () => {
         <div className="absolute top-1/4 left-1/4 w-72 h-72 bg-blue-600/20 rounded-full blur-3xl"></div>
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-600/20 rounded-full blur-3xl"></div>
       </div>
+      
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center">
-          <div className="mb-8">
-            <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-              <span className="block text-white">Expert Medical</span>
-              <span className="block bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-                Coding Solutions
+          <div className="mb-16">
+            <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-6 p-5 leading-tight">
+              <span className="block text-white">Hi, I'm Yakshana T</span>
+              <span className=" bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
+                Expert Medical Coder
               </span>
             </h1>
             <p className="text-xl sm:text-2xl text-slate-300 max-w-3xl mx-auto mb-8 leading-relaxed">
@@ -53,7 +54,7 @@ const Hero: React.FC = () => {
               <div className="text-slate-300">Cases Coded</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-pink-400 mb-2">8+</div>
+              <div className="text-3xl font-bold text-pink-400 mb-2">1+</div>
               <div className="text-slate-300">Years Experience</div>
             </div>
           </div>
@@ -63,6 +64,7 @@ const Hero: React.FC = () => {
       {/* Scroll Indicator */}
       <button
         onClick={scrollToNext}
+        title='Scroll Down'
         className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce p-2 rounded-full bg-slate-800/50 backdrop-blur-sm hover:bg-slate-700/50 transition-colors"
       >
         <ChevronDown size={24} className="text-slate-300" />

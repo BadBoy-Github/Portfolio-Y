@@ -86,7 +86,7 @@ const Contact: React.FC = () => {
             </div>
 
             <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl p-6">
-              <h4 className="text-lg font-semibold text-white mb-4">Why Choose MedCoder Pro?</h4>
+              <h4 className="text-lg font-semibold text-white mb-4">Why Choose Me?</h4>
               <ul className="space-y-3 text-sm text-slate-300">
                 <li className="flex items-center">
                   <CheckCircle className="h-4 w-4 text-green-400 mr-3 flex-shrink-0" />
