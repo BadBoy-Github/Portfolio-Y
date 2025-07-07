@@ -2,14 +2,30 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Yakshana T | Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>MedCoder Pro - Expert Medical Coding Services</title>
+    <meta name="description" content="Professional medical coding services with 8+ years of experience. Specializing in ICD-10, CPT, and HCPCS coding with 98% accuracy guarantee." />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      
+      @keyframes gradient {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+      }
+      
+      .animate-gradient {
+        background: linear-gradient(-45deg, #1e293b, #0f172a, #334155, #475569);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+      }
+    </style>
   </head>
-  <body>
+  <body class="animate-gradient">
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
